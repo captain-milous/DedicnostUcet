@@ -49,6 +49,14 @@ namespace DedicnostUcet
             return this.castka + " " + this.mena;
         }
 
+        public void ZmenMenu(string novaMena)
+        {
+            if(novaMena == "CZK")
+            {
+                //this.toCZK;
+            }
+        }
+
         public virtual Penize toCZK()
         {
             if (this.mena == "EUR")
