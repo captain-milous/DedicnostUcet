@@ -8,5 +8,7 @@ namespace DedicnostUcet
 {
     internal class UrocnyUcetSPoplatkem : UrocnyUcet
     {
+        protected Penize poplatekZaVedeni;
+        protected Penize poplatekZaVyber;
     }
 }
